@@ -1,7 +1,7 @@
 {
-	"name": "olicek/form-selectize",
+	"name": "novakadam3/form-selectize",
 	"description": "Form extension for Nette framework",
-	"homepage": "https://github.com/Olicek/form-selectize",
+	"homepage": "https://github.com/novakadam3/form-selectize.git",
 	"license": "GPL-3.0",
 	"authors": [
 		{
