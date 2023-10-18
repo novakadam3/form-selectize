@@ -283,6 +283,9 @@ class Selectize extends Nette\Forms\Controls\BaseControl
 
 	private function prepareData()
 	{
+		if(is_null($this->getHttpData(Form::DATA_LINE))){
+			return;
+		}
 		$this->selectize = $this->split($this->getHttpData(Form::DATA_LINE));
 		$this->selectizeBack = $this->getHttpData(Form::DATA_LINE);
 		$iteration = false;
